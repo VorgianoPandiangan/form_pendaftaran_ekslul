@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 3</title>
+</head>
+<body>
+    <form action="">
+        <h2>Form Pendaftaran Ekskul</h2>
+        <fieldset>
+        <legend>Data Peserta</legend>
+        <p>Nama : <input type="text" placeholder="Nama" required></p>
+        <p>Kelas : <select name="" id="">
+            <optgroup label="Kelas X">
+                <option value="">X RPL 1</option>
+                <option value="">X DKV 1</option>
+                <option value="">X TKJ 1</option>
+                <option value="">X TJA 1</option>
+            </optgroup>
+            <optgroup label="Kelas XI">
+                <option value="">XI RPL 1</option>
+                <option value="">XI DKV 1</option>
+                <option value="">XI TKJ 1</option>
+                <option value="">XI TJA 1</option>
+            </optgroup>
+            <optgroup label="Kelas XII">
+                <option value="">XII RPL 1</option>
+                <option value="">XII DLV 1</option>
+                <option value="">XII TKJ 1</option>
+                <option value="">XII TJA 1</option>
+            </optgroup>
+        </select>
+        </p>
+        <p>Email : <input type="email" placeholder="Email Anda" required></p>
+        <p>No Handphone : <input type="tel" placeholder="No Handphone Anda" required></p>
+        <p>Pilih Ekskul :</p>
+        <label for="web_development">
+        <input type="radio" name="pilihan_ekskul" id="web_development">Web Development <br></label>
+        <label for="creative_squad">
+        <input type="radio" name="pilihan_ekskul" id="creative_squad">Creastive Squad <br></label>
+        <label for="paskomda">
+        <input type="radio" name="pilihan_ekskul" id="paskomda">Paskomda <br></label>
+        <label for="pramuka">
+        <input type="radio" name="pilihan_ekskul" id="pramuka">Pramuka (Tidak Disarankan) <br></label>
+        <label for="futsal">
+        <input type="radio" name="pilihan_ekskul" id="futsal">Futsal <br></label>
+        <label for="basket">
+        <input type="radio" name="pilihan_ekskul" id="basket">Basket <br></label>
+        <label for="volly">
+        <input type="radio" name="pilihan_ekskul" id="volly">Volly <br></label>
+        </fieldset>
+        <button type="button" onclick="alert ('Data Telah Dikirim')">Kirim Data</button>
+    </form>
+</body>
+</html>
